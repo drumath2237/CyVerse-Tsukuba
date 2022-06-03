@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "13061JECB07108",
         "name": "com.drumath2237.geospatialtsukubaaisttestbed",
-        "processId": 28357,
+        "processId": 8710,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,48 @@
             "deviceId": "13061JECB07108",
             "name": "com.drumath2237.geospatialtsukubaaisttestbed",
             "processId": 28357,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 32231,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 4618,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 6296,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 7133,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 7638,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 8136,
+            "exited": false
+        },
+        {
+            "deviceId": "13061JECB07108",
+            "name": "com.drumath2237.geospatialtsukubaaisttestbed",
+            "processId": 8710,
             "exited": false
         }
     ],
