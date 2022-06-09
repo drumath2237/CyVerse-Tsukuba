@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3711690099804697548, guid: f95bb3877045bb040be1fb77890c58f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.4
+      value: -100.7
       objectReference: {fileID: 0}
     - target: {fileID: 3711690099804697548, guid: f95bb3877045bb040be1fb77890c58f7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -177,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 4091875224969095542, guid: f95bb3877045bb040be1fb77890c58f7, type: 3}
       propertyPath: m_Name
       value: h2a-rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308424095305081380, guid: f95bb3877045bb040be1fb77890c58f7, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 28.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f95bb3877045bb040be1fb77890c58f7, type: 3}
