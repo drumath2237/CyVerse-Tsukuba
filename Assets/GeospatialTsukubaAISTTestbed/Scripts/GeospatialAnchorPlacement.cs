@@ -8,22 +8,18 @@ namespace GeospatialTsukuba
     public class GeospatialAnchorPlacement : MonoBehaviour
     {
         [SerializeField]
-        private TextMeshProUGUI logText;
+        private TextMeshProUGUI logText = null;
 
         [SerializeField]
-        private AREarthManager earthManager;
+        private AREarthManager earthManager = null;
 
         [SerializeField]
-        private ARAnchorManager arAnchorManager;
+        private ARAnchorManager arAnchorManager = null;
 
         [SerializeField]
         private GameObject anchorObject = null;
 
         private Transform anchorTransform = null;
-
-        [SerializeField]
-        private GameObject testmodel;
-
 
         private void Update()
         {
@@ -39,7 +35,6 @@ namespace GeospatialTsukuba
             if (anchorTransform)
             {
                 logText.text += $"anchor pose:{anchorTransform.position}";
-                testmodel.transform.rotation = anchorTransform.rotation;
             }
         }
 
@@ -53,7 +48,7 @@ namespace GeospatialTsukuba
             var anchor = arAnchorManager.AddAnchor(
                 36.08219375,
                 140.1133591,
-                68.958,
+                68.958-1.5,
                 Quaternion.identity
             );
 
@@ -64,6 +59,11 @@ namespace GeospatialTsukuba
 
             var obj = Instantiate(anchorObject, anchor.transform);
             anchorTransform = obj.transform;
+        }
+        
+        public void ToggleAnchorObject()
+        {
+            anchorTransform.gameObject.SetActive(!anchorTransform.gameObject.activeSelf);
         }
     }
 }
