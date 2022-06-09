@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
-namespace GeospatialTsukuba
+namespace CyVerse
 {
     public class GeospatialAnchorPlacement : MonoBehaviour
     {

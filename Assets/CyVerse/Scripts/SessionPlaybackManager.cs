@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.XR.ARCore;
 using UnityEngine.XR.ARFoundation;
 
-namespace GeospatialTsukuba
+namespace CyVerse
 {
     public class SessionPlaybackManager : MonoBehaviour
     {
