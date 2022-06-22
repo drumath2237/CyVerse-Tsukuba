@@ -121,9 +121,9 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: -0.22
+    m_Value: 0.3
   contrast:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 29.5
   colorFilter:
     m_OverrideState: 0
